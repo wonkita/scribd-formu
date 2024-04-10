@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+
+}
+
+form{
+    width: 450px;
+    background: rgb(102, 193, 193);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    animation: cambia-color 10s linear infinite;
+    background: -webkit-linear-gradient(left, rgb(90, 172, 172), rgb(212, 156, 35));
+    background-size: 400% 400%;
+}
+
+@keyframes cambia-color {
+    0%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+    100%{
+        background-position: 50%, 0%;
+    }
+}
+
+.title{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+
+.logotipo{
+    width: 140px;
+}
+
+.textin {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-style: none;
+    outline: 0px;
+}
+
+.contra {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-style: none;
+    outline: 0px;
+}
+
+
+.bochongoogle{
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    outline: 0px;
+    color: rgb(212, 195, 195);
+}
+.bochoninstagram{
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    outline: 0px;
+    color: rgb(212, 195, 195);
+}
+
+
+.bochon{
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-style: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    outline: 0px;
+    color: rgb(212, 195, 195);
+}
+
+.container-data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container-data h4{
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    margin: 2px;
+}
+
+
+.container-or{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.container-iconf{
+    margin-top: 40px;
+}
+.icon-facebook{
+    color: white;
+    font-size: 22px;
+}
+.icon-facebook a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.container-register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container-register h4{
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+
+.container-register a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 4px;
+    color: white;
+}
